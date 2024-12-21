@@ -1,17 +1,20 @@
 {
   "name": "pcbbd-utilities",
-  "version": "2.0.1",
-  "description": "An amazing discord bot that helps run the PC BUILDER BANGLADESH Official Discord Server",
-  "main": "index.js",
+  "version": "3.0.0",
+  "description": "A Discord bot commands, components and events handler based on discord.js v14 and fully written in JavaScript.",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
   },
+  "keywords": [],
   "author": "Nadid Wasique",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "discord.js": "^14.16.3"
+    "colors": "^1.4.0",
+    "discord.js": "^14.16.0",
+    "dotenv": "^16.4.5",
+    "quick-yaml.db": "^1.2.2"
   },
-  "devDependencies": {
-    "eslint": "^9.17.0"
-  }
+  "devDependencies": {}
 }
